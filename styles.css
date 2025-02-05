@@ -1,0 +1,284 @@
+:root {
+    --primary-color: #1cbc9c;
+    --secondary-color: #2c3c54;
+}
+
+body{
+    font-family: "Tajawal", serif;
+}
+
+/* Components */
+
+.as-btn-primary-outline{
+    background-color: transparent;
+    border-color: var(--primary-color);
+    border-radius: 0;
+}
+
+.as-btn-primary-outline:hover{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 0;
+}
+
+
+/* Components */
+
+/* Start Navbar */
+
+.navbar {
+    background-color: var(--secondary-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.navbar .navbar-brand:focus, .navbar .navbar-brand:hover{
+    color: var(--primary-color) !important;
+}
+
+.navbar a {
+    
+    color: white;
+}
+
+.navbar .nav-link{
+    transition: unset !important;
+    padding: 10px;
+}
+
+.navbar .nav-link:hover{
+    background-color: var(--primary-color);
+    
+    border-radius: 10px;
+}
+
+/* End Navbar */
+
+/* About Company */
+
+.about-company {
+    background-color: var(--primary-color);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+    text-align: center;
+}
+
+.about-company h2{
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.about-company p{
+    font-size: 1.25rem;
+    
+}
+
+
+/* About Company */
+
+/* Services  */
+
+.services {
+    padding-top: 70px;
+}
+
+.services h2{
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.services .services-item{
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.services .service-image{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .services .services-item .card-body{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services .services-item .card-body .card-title{
+    text-align: center;
+}
+
+
+/* Services  */
+
+
+
+/* Books  */
+
+.books {
+    padding-top: 70px;
+    background-color: var(--primary-color);
+}
+
+.books h2{
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.books .services-item{
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.books .service-image{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .books .services-item .card-body{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.books .services-item .card-body .card-title{
+    text-align: center;
+}
+
+
+/* Books  */
+
+
+/* Testimonials */
+.testi {
+    padding-top: 70px;
+}
+
+
+.testi h2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .testi .testi-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testi .testi-item .testi-image{
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .testi .testi-item h4{
+    margin-top: 10px;
+  }
+
+  .testi .testi-item .text{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+  }
+
+/* Testimonials */
+
+
+/* Times */
+.times {
+    padding-top: 70px;
+}
+
+
+.times h2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .times .times-item{
+    margin-bottom: 20px;
+  }
+  .times .times-item h4{
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    margin-bottom: 0;
+
+  }
+
+  .times .times-item .times-item-body{
+    background-color: var(--secondary-color);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    padding-bottom: 20px;
+
+  }
+
+  .times .times-item .times-item-body table thead th{
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: var(--primary-color);
+
+  }
+
+  .times .times-item .times-item-body table tbody td{
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: var(--primary-color);
+
+  }
+
+/* Times */
+
+/* Footer */
+
+footer{
+    padding: 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+
+}
+
+
+/* Footer */
